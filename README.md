@@ -14,7 +14,7 @@ Prerequisites: Numpy and Scipy.
 
 - newton.py: exact Newton optimization
 - mlef.py:
-- nmlef_zeta.py: 
+- mlef_zeta.py: 
 
 ### Single wind speed assimilation
 
@@ -22,14 +22,14 @@ A single wind speed assimulation described in Bowler et al. (2013).
 
 - wind.py: driver
 
-### Cycled experiments with a Kortweg--de Vries--Burgers equation (KdVB) model
+### Cycled experiments with a Korteweg&ndash;de Vries&ndash;Burgers equation (KdVB) model
 
 Assimilation into a KdVB equation model in Zupanski (2005).
 
 #### Model scripts
 
 - ode.py: 4th order Runge-Kutta
-- kdvb.py: Kortweg--de Vries--Burgers equation model
+- kdvb.py: Korteweg&ndash;de Vries&ndash;Burgers equation model
 
 #### Data assimilation scripts
 
@@ -44,6 +44,6 @@ Edit cycle.py for parameters and a choice of an observation operater.
 
 ## References
 
-- Bowler, N. E., J. Flowerdew, and S. R. Pring, 2013: Tests of different flavours of EnKF on a simple model. Quarterly Journal of the Royal Meteorological Society, 139, 1505–1519, [doi:10.1002/qj.2055](https://doi.org/10.1002/qj.2055).
-- Enomoto, T. and S. Nakashita, 2023: Application of exact Newton optimisation to the maximum likelihood ensemble filter.
-- Zupanski, M., 2005: Maximum likelihood ensemble filter: theoretical Aspects. Mon. Wea. Rev., 133, 1710–1726, [doi:10.1175/MWR2946.1](https://doi.org/10.1175/MWR2946.1.).
+- Bowler, N. E., J. Flowerdew, and S. R. Pring, 2013: Tests of different flavours of EnKF on a simple model. *Quart. J. Roy. Meteor. Soc.*, **139**, 1505&ndash;1519, [doi:10.1002/qj.2055](https://doi.org/10.1002/qj.2055).
+- Enomoto, T. and S. Nakashita, 2024: Application of exact Newton optimisation to the maximum likelihood ensemble filter, *under revision*.
+- Zupanski, M., 2005: Maximum Likelihood Ensemble Filter: Theoretical aspects. *Mon. Wea. Rev.*, **133**, 1710&ndash;1726, [doi:10.1175/MWR2946.1](https://doi.org/10.1175/MWR2946.1).

@@ -9,7 +9,7 @@ ustd = 0.3
 maxiter = 100
 tol = 1.0e-5
 scale = False
-rinv = 1 / np.full((1, 1), ustd**2)
+rinv = 1 / np.full((1, 1), ustd**2 * nens)
 hist = False
 
 

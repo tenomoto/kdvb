@@ -44,13 +44,13 @@ ub[0,] = kdvb.two_solitons(x, t, np.sqrt(0.5 * beta1), np.sqrt(0.5 * beta2))
 for i in range(ncycle):
     print(f"cycle {i}/{ncycle}")
     if scale or (i == 0 and scale0):
-        pf12 /= np.sqrt(nens-1)
+        pf12 /= np.sqrt(nens)
     jfile = f"j{i:03}.txt" if i < jgmax else None
     gfile = f"g{i:03}.txt" if i < jgmax else None
     ua[i,], pa12, chi2[i], innov[i,] = analysis(ub[i,], pf12, uobs[i,], rinv, hop, iobs[i,],
         maxiter=maxiter, tol=tol, jfile=jfile, gfile=gfile, stat=True) 
     if scale:
-        pa12 *= np.sqrt(nens-1)
+        pa12 *= np.sqrt(nens)
     stda[i] = np.sqrt(np.trace(pa12 @ pa12.T) / nens)
     if i in cycle_save:
         print("saving Pa")
