@@ -45,5 +45,5 @@ Edit cycle.py for parameters and a choice of an observation operater.
 ## References
 
 - Bowler, N. E., J. Flowerdew, and S. R. Pring, 2013: Tests of different flavours of EnKF on a simple model. *Quart. J. Roy. Meteor. Soc.*, **139**, 1505&ndash;1519, [doi:10.1002/qj.2055](https://doi.org/10.1002/qj.2055).
-- Enomoto, T. and S. Nakashita, 2024: Application of exact Newton optimisation to the maximum likelihood ensemble filter, *under revision*.
+- Enomoto, T., and S. Nakashita, 2024: Application of exact Newton optimisation to the maximum likelihood ensemble filter. *Tellus A*, **76**, 42–56, [doi:10.16993/tellusa.3255](https://doi.org/10.16993/tellusa.3255).
 - Zupanski, M., 2005: Maximum Likelihood Ensemble Filter: Theoretical aspects. *Mon. Wea. Rev.*, **133**, 1710&ndash;1726, [doi:10.1175/MWR2946.1](https://doi.org/10.1175/MWR2946.1).
